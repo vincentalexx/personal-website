@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <section className="" id="home">
-            <div className="navbar w-full p-8 flex justify-between tracking-wider -mt-[176px] lg:-mt-[160px] fixed" >
+            <div className="navbar w-full p-8 flex justify-between tracking-wider shadow-md fixed" >
                 
                 <a href="/" className="name lg:ml-20 ml-10 text-3xl tracking-wider font-semibold -mt-2">Vincentalexx</a>
 

@@ -2,7 +2,8 @@ import image from '../assets/image/takina.jpg'
 const About = () => {
     return (
         <section id="about">
-            <div className='lg:flex font-bold mt-44 lg:mt-40 h-[85vh] lg:h-[77vh] mx-20 lg:-space-x-28 items-center justify-center'>
+            <div className='h-36'></div>
+            <div className='lg:flex font-bold h-[84vh] mx-20 lg:-space-x-28 items-center justify-center'>
                 <div className='flex items-center justify-center lg:w-[3000px]'>
                     <img src={image} alt='photo' className="object-cover aspect-square max-h-[350px] justify-center" />
                 </div>
