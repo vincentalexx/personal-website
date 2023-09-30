@@ -1,13 +1,13 @@
 import { faDiscord, faGit, faGithub, faInstagram, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import './footer.css';
+import './component.css';
 
 const Footer = () => {
     return (
-        <section className="" id="contact">
-            <div className="justify-center">
-                <p className="text-white flex text-2xl justify-center" >CONTACT</p>
+        <section id="contact">
+            <div className="justify-center mb-12">
+                <p className="flex text-2xl justify-center" >CONTACT</p>
                 <br />
                 <ul className="justify-center flex space-x-28">
                     <li className="justify-center">
@@ -30,7 +30,7 @@ const Footer = () => {
                 {/* flex space-y-8 md:flex-col justify-center md:space-x-32 md:space-y-0 */}
                 <ul className="lg:flex justify-center lg:space-x-16 space-y-3 lg:space-y-0 mt-7">
                     <li className="flex justify-center space-x-2">
-                        <FontAwesomeIcon icon={faWhatsapp} className="text-2xl" /> <p className="text-base font-bold">+62 8172399168</p>
+                        <FontAwesomeIcon icon={faWhatsapp} className="text-2xl" /> <p className="text-base font-bold ">+62 8172399168</p>
                     </li>
                     <li className="flex justify-center space-x-2">
                         <FontAwesomeIcon icon={faEnvelope} className="text-2xl" /> <p className="text-base font-bold">@vincentalexx03@gmail.com</p>
