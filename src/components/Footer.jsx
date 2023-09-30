@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="justify-center mb-12">
                 <p className="flex text-2xl justify-center" >CONTACT</p>
                 <br />
-                <ul className="justify-center flex space-x-28">
+                <ul className="justify-center flex space-x-10 md:space-x-28">
                     <li className="justify-center">
                         <a href="https://github.com/vincentalexx" className="icon-hover"><FontAwesomeIcon icon={faGithub} size="" className="text-4xl github" />
                             <p className="text-base">Github</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                 </ul>
                  
                 {/* flex space-y-8 md:flex-col justify-center md:space-x-32 md:space-y-0 */}
-                <ul className="lg:flex justify-center lg:space-x-16 space-y-3 lg:space-y-0 mt-7">
+                <ul className="md:flex justify-center md:space-x-16 space-y-3 md:space-y-0 mt-7">
                     <li className="flex justify-center space-x-2">
                         <FontAwesomeIcon icon={faWhatsapp} className="text-2xl" /> <p className="text-base font-bold ">+62 8172399168</p>
                     </li>
