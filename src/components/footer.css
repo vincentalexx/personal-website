@@ -1,0 +1,21 @@
+.icon-hover:hover {
+    color: 	rgb(4,217,255);
+    transition: all 0.3s ease-out;
+    text-shadow: 0 0 3px white, 0 0 5px gray;
+}
+
+.blue-color {
+    color: rgb(4,217,255);
+}
+
+.insta {
+    margin-left: 18px;
+}
+
+.linkedin {
+    margin-left: 15px;
+}
+
+.github {
+    margin-left: 7px;
+}
