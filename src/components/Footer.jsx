@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <section id="contact">
             <div className="justify-center mb-12">
-                <p className="flex text-2xl justify-center" >CONTACT</p>
+                <p className="text-[#dfe5f0] flex text-2xl justify-center" >CONTACT</p>
                 <br />
                 <ul className="justify-center flex space-x-10 md:space-x-28">
                     <li className="justify-center">
