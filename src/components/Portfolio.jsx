@@ -1,19 +1,19 @@
-import katekima from '../assets/image/katekima.png'
+import { useState } from 'react'
+import './component.css'
+import { PortfolioList} from './PortfolioList'
+import PortfolioItem from './PortfolioItem';
 
 const Portfolio =() => {
+    const [openModel, setOpenModel] = useState(false);
     return (
         <section id="portfolio">
+            <div className='h-36 lg:h-28'></div>
             <div>
-                <p className="text-[#dfe5f0] flex text-2xl justify-center mt-12 md:mt-16">PORTFOLIO</p>
-                <div className="portfolio-content">
-                    <div className="lg:flex w-[80vw] mx-auto align-middle">
-                        <img src={katekima} className='object-cover aspect-square mx-auto max-w-[200px] md:max-w-[300px]' />
-                        <div className="justify-center items-center text-center content-center max-w-xl mx-auto align-middle md:max-h-[280px] lg:max-h-[100px]">
-                            <span className="mx-auto max-w-md">KATEKIMA</span>
-                            <br />
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ullam fugiat laboriosam, earum debitis obcaecati nostrum placeat, perferendis corrupti suscipit iusto possimus id maiores nesciunt voluptate facilis qui distinctio consectetur.</span>
-                        </div>
-                    </div>
+            <span className='text-[#dfe5f0] flex text-2xl justify-center  md:mt-[50px] lg:mt-[70px]'>PORTFOLIO</span>
+                <div className='grid grid-cols-4'>
+                    {PortfolioList.map((portfolio) => {
+                        return <PortfolioItem name={portfolio.name} image={portfolio.image} />
+                    })}
                 </div>
             </div>
         </section>

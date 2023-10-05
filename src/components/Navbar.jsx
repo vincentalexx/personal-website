@@ -34,7 +34,7 @@ const Navbar = () => {
                 </ul>
 
                 {isOpen && (
-                    <ul className={'text-gray-500 w-48 lg:space-x-7 font-bold lg:flex pl-9 justify-between items-center lg:py-0 py-5 right-16 absolute lg:z-auto space-y-3 lg:right-10 lg:space-y-0 bg-gray-800/[0.95] lg:bg-gray-800/[1] lg:border-0 lg:shadow-none shadow-xl border-2 border-gray-600 lg:top-8 top-[90px] lg:rounded-none rounded-md transition-all duration-300 ease-out lg:hidden'}>
+                    <ul className={'text-gray-500 w-48 lg:space-x-7 font-bold pl-9 justify-between items-center lg:py-0 py-5 right-16 absolute lg:z-auto space-y-3 lg:right-10 lg:space-y-0 bg-gray-800/[0.95] lg:bg-gray-800/[1] lg:border-0 lg:shadow-none shadow-xl border-2 border-gray-600 lg:top-8 top-[90px] lg:rounded-none rounded-md transition-all duration-300 ease-out lg:hidden'}>
                         
                         <li>
                             <a href="#home" className="icon-hover" onClick={() => setisOpen(!isOpen)}><FontAwesomeIcon icon={faHome} className="mr-3 fa-xl" />Home</a>
