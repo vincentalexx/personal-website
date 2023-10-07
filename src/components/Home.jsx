@@ -4,7 +4,7 @@ import image from '../assets/image/programmer.png'
 const Home = () => {
     return (
         <section id="home">
-            <div className='h-36 lg:h-28'></div>
+            <div className='h-36 md:h-48 lg:h-28'></div>
 
             <div className='justify-center mx-auto md:flex md:space-x-16 xl:space-x-28 space-y-8 md:space-y-0 w-[80vw] md:mt-[50px] lg:mt-[110px] h-[500px] md:h-[300px] lg:h-[500px]'>
                 <div className=''>
