@@ -6,9 +6,9 @@ import './component.css';
 const Footer = () => {
     return (
         <section id="contact">
-            <div className="justify-center mb-12">
-                <p className="text-[#dfe5f0] flex text-2xl justify-center" >CONTACT</p>
-                <br />
+            <div className="bg-black justify-center">
+                <div className="h-12"></div>
+                <p className="text-[#dfe5f0] flex text-2xl justify-center mb-11" >CONTACT</p>
                 <ul className="justify-center flex space-x-10 md:space-x-28">
                     <li className="justify-center">
                         <a href="https://github.com/vincentalexx" className="icon-hover"><FontAwesomeIcon icon={faGithub} size="" className="text-4xl github" />
@@ -39,6 +39,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faDiscord} className="text-2xl" /> <p className="text-base font-bold">vincentalexx</p>
                     </li>
                 </ul>
+                <div className="h-12"></div>
             </div>
         </section   >
     );
