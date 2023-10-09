@@ -5,13 +5,17 @@ import './component.css';
 
 const Navbar = () => {
     let [isOpen, setisOpen] = useState(false)
+
+    const closeModel = () => {
+        setisOpen(false);
+    }
     return (
         <section className="" id="home">
             <div className="navbar w-full p-8 flex justify-between tracking-wider shadow-lg fixed z-[2]" >
                 
                 <a href="/" className="text-[#dfe5f0] name lg:ml-20 ml-10 text-3xl tracking-wider font-semibold -mt-2">Vincentalexx</a>
-
-                <div onClick={() => setisOpen(!isOpen)} className="right-16 w-7 h-7 absolute cursor-pointer lg:hidden text-2xl transition-all duration-300 ease-out"> 
+                
+                <div onClick={() => setisOpen(!isOpen)} className="right-16 w-7 h-7 absolute cursor-pointer lg:hidden text-2xl transition-all duration-300 ease-out "> 
                     {
                         isOpen ? <FontAwesomeIcon icon={faXmark}/> :  <FontAwesomeIcon icon={faBars} />
                     }
@@ -51,6 +55,8 @@ const Navbar = () => {
                     </ul>
                 )}
             </div>
+            <div onClick={closeModel} className="w-screen h-screen absolute"></div>
+
         </section>
     );
 }
