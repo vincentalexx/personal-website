@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-    color: #6d7e9e;
-    background: #0c142c;
+    color: #a0a0a0;
+    background: rgb(27, 26, 26);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

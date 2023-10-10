@@ -1,4 +1,5 @@
 import katekima from '../assets/image/katekima.png'
+import portfolio from '../assets/image/portfolio.png'
 import takina from '../assets/image/takina.jpg'
 
 export const PortfolioList = [
@@ -8,35 +9,7 @@ export const PortfolioList = [
         link: 'https://github.com/vincentalexx/KATEKIMA.git'
     },
     {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
-    },
-    {
-        name: 'AAA',
-        image: takina
+        name: 'Personal Website',
+        image: portfolio,
     },
 ];

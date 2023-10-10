@@ -1,5 +1,5 @@
 .icon-hover:hover {
-    color: 	#51cccd;
+    color: 	rgb(255, 221, 0);
     text-decoration: underline;
     transition: all 0.3s ease-out;
 }
@@ -16,11 +16,23 @@
 }
 
 .navbar {
-    background: #142445;
+    background: #202224;
 }
 
 .portfolio:hover {
     /* box-shadow: 0 60px 123px -25px hsla(225,2%,62%,.42), 0 35px 75px -35px hsla(225,2%,62%,.08);
     transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg); */
     transform: scale(1.5);
+}
+
+.home {
+    background: 
+      linear-gradient(135deg,#0000 20.5%,#000000 0 29.5%,#0000 0) 0 36px,
+      linear-gradient( 45deg,#0000 8%,#000000 0 17%, #0000 0 58%) 72px 0,
+      linear-gradient(135deg,#0000 8%,#000000 0 17%, #0000 0 58%,#000000 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,#000000 0 17%, #0000 0 58%,#000000 0 67%,#0000 0 83%,#000000 0 92%,#0000 0),
+      #1b1a1a;
+background-size: 144px 144px;
+
+
 }
