@@ -11,5 +11,6 @@ export const PortfolioList = [
     {
         name: 'Personal Website',
         image: portfolio,
+        link: 'https://github.com/vincentalexx/Staging.git'
     },
 ];

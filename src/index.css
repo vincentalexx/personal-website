@@ -13,3 +13,10 @@ body {
 html {
     width: 100%;
 }
+
+@font-face {
+    font-family: 'TeenageLadyDemoBold';
+    src: local('TeenageLadyDemoBold'),
+         url('./assets/fonts/TeenageLadyDemoBold.ttf') format('ttf'),
+         url('./assets/fonts/TeenageLadyDemoBold.ttf2') format('ttf2'),
+}
