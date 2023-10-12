@@ -10,8 +10,8 @@ const About = () => {
                 <div className=''>
                     <img src={image} alt='photo' className="drop-shadow-[4px_-3px_white] object-cover max-h-[400px] mx-auto min-w-[200px] md:-mt-6 lg:-mt-14" />
                 </div>
-                <div className='justify-center flex items-center text-center content-center max-w-3xl mx-auto align-middle md:max-h-[280px] lg:max-h-[350px]'>
-                    <p className='mx-auto max-w-xl text-xl md:text-lg lg:text-2xl mt-4 md:mt-12'>
+                <div className='justify-center flex items-center text-center content-center max-w-4xl mx-auto align-middle md:max-h-[280px] lg:max-h-[350px]'>
+                    <p className='mx-auto max-w-2xl text-xl md:text-lg lg:text-2xl mt-4 md:mt-12'>
                         Hello, my name is Vincent Alexander Haris. I'm an ungraduate computer science major at Bina Nusantara University. I've learned some of the programming fundamentals on my two years in collage, such as Algorithm and Programming Data Structures, Programming Design Methods, Computer Networks, Database Technology, and many more. 
                         <br /> <br />
                         I'm a persistent and 
