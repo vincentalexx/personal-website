@@ -11,17 +11,17 @@ const Footer = () => {
                 <p className="flex text-3xl justify-center mb-11" >CONTACT</p>
                 <ul className="justify-center flex space-x-10 md:space-x-28">
                     <li className="justify-center">
-                        <a href="https://github.com/vincentalexx" className="icon-hover"><FontAwesomeIcon icon={faGithub} size="" className="text-4xl github" />
+                        <a href="https://github.com/vincentalexx" className="icon-hover text-center"><FontAwesomeIcon icon={faGithub} size="" className="text-4xl github" />
                             <p className="text-base">Github</p>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/vincent-alexander-haris/" className="icon-hover"><FontAwesomeIcon icon={faLinkedin} size="" className="text-4xl linkedin" />
+                        <a href="https://www.linkedin.com/in/vincent-alexander-haris/" className="icon-hover text-center"><FontAwesomeIcon icon={faLinkedin} size="" className="text-4xl linkedin" />
                             <p className="text-base">LinkedId</p>
                         </a>
                     </li>
                     <li className="">
-                    <a href="" className="icon-hover justify-center"><FontAwesomeIcon icon={faInstagram} className="text-4xl insta" />
+                        <a href="https://www.instagram.com/vincentalexx/" className="icon-hover justify-center text-center"><FontAwesomeIcon icon={faInstagram} className="text-4xl insta" />
                             <p className="text-base">Instagram</p>
                         </a>
                     </li>
