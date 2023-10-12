@@ -8,7 +8,7 @@ const Home = () => {
             <div className='home'>
                 <div className='h-44 lg:h-16'></div>
 
-                <div className='justify-center mx-auto lg:flex lg:space-x-16 xl:space-x-28 space-y-8 md:space-y-0 mt-[70px] md:mt-[80px] lg:mt-[110px] min-h-[90vh] md:min-h-[70vh] lg:min-h-[75vh]'>
+                <div className='justify-center mx-auto lg:flex lg:space-x-16 xl:space-x-28 space-y-8 md:space-y-0 mt-[70px] md:mt-[80px] lg:mt-[110px] min-h-[90vh] md:min-h-[90vh] lg:min-h-[75vh]'>
                     <div className=''>
                         <img src={image} alt='photo' className="drop-shadow-[3px_-3px_white] object-cover aspect-square max-h-[300px] md:max-h-[350px] lg:max-h-[400px] mx-auto min-w-[250px]" />
                     </div>
