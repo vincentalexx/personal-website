@@ -1,4 +1,4 @@
-import image from '../assets/image/home.png'
+import image from '../assets/image/programmer.png'
 import Typewriter from "typewriter-effect";
 import Title from './Title.json'
 

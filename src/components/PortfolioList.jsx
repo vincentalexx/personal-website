@@ -1,6 +1,7 @@
 import katekima from '../assets/image/katekima.png'
 import portfolio from '../assets/image/portfolio.png'
 import staging from '../assets/image/staging.png'
+import vern from '../assets/image/vern.png'
 
 export const PortfolioList = [
     {
@@ -17,5 +18,10 @@ export const PortfolioList = [
         name: 'Form Ketidakhadiran',
         image: staging,
         link: 'https://github.com/vincentalexx/Staging.git'
+    },
+    {
+        name: 'Vern',
+        image: vern,
+        link: 'https://github.com/vincentalexx/Vern.git'
     },
 ];
