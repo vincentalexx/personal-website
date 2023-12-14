@@ -21,7 +21,7 @@ export const PortfolioList = [
     },
     {
         id: '3',
-        name: 'Form Ketidakhadiran',
+        name: 'Form Ketidakhadiran Pengurus Gereja',
         image: staging,
         link: 'https://github.com/vincentalexx/Staging.git',
         description: 'Form Ketidakhadiran is a form for apply for permission of activity in GII Hok Im Tong Gardujati Bandung Church.',
@@ -35,7 +35,7 @@ export const PortfolioList = [
     },
     {
         id: '5',
-        name: 'HashMicro',
+        name: 'HashMicro Test',
         image: hashmicro,
         link: 'https://github.com/vincentalexx/Hashmicro.git',
         description: 'This is a project for the PT HashMicro Solusi Indonesia test',
