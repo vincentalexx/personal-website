@@ -3,7 +3,7 @@ import React from 'react'
 function PortfolioItem({ image, name, link }) {
   return (
     <div className='group/modal min-w-[300px] min-h-[300px] md:min-h-[300px] md:min-w-[300px] lg:h-72 lg:w-72 justify-center mx-auto transition-all ease-out '>
-      <a href={link}>
+      <a href="#portfolio">
         <div className='opacity-0 group-hover/modal:opacity-100 absolute min-w-[300px] min-h-[300px] md:min-h-[300px] md:min-w-[300px] lg:h-72 lg:w-72 transition-all ease-out duration-500'>
           <p className='text-white font-bold text-center align-middle mt-[37%] md:mt-[39%] mx-auto text-3xl'> {name} </p>
         </div>
