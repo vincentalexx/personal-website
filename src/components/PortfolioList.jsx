@@ -3,6 +3,8 @@ import portfolio from '../assets/image/portfolio.png'
 import staging from '../assets/image/staging.png'
 import vern from '../assets/image/vern.png'
 import hashmicro from '../assets/image/hashmicro.png'
+import xyloBackend from '../assets/image/xylo-backend.png'
+import xyloFrontend from '../assets/image/xylo-frontend.png'
 
 export const PortfolioList = [
     {
@@ -35,9 +37,23 @@ export const PortfolioList = [
     },
     {
         id: '5',
-        name: 'HashMicro Test',
+        name: 'PT HashMicro Solusi Indonesia Test',
         image: hashmicro,
         link: 'https://github.com/vincentalexx/Hashmicro.git',
         description: 'This is a project for the PT HashMicro Solusi Indonesia test',
+    },
+    {
+        id: '6',
+        name: 'PT Xylo Solusi Indonesia Front End Developer Test',
+        image: xyloFrontend,
+        link: 'https://github.com/vincentalexx/DanielScrivner.git',
+        description: 'This is a project for the PT Xylo Solusi Indonesia Front End Developer test',
+    },
+    {
+        id: '7',
+        name: 'PT Xylo Solusi Indonesia Back End Developer Test',
+        image: xyloBackend,
+        link: 'https://github.com/vincentalexx/Parking-System.git',
+        description: 'This is a project for the PT Xylo Solusi Indonesia Back End Developer test',
     },
 ];
