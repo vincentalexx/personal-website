@@ -45,7 +45,7 @@ const Navbar = () => {
         <section className="" id="home">
             <div className="navbar w-full p-8 flex justify-between tracking-wider shadow-lg fixed z-[2]" >
                 
-                <a href="/" className="name lg:ml-20 ml-10 text-3xl tracking-wider font-semibold -mt-2">Vincentalexx</a>
+                <a href="/" className="name lg:ml-20 ml-10 text-3xl tracking-wider font-semibold -mt-2 hover:text-[#ffdd00] transition-all duration-300 ease-out">Vincentalexx</a>
                 
                 <div onClick={() => setisOpen(!isOpen)} className="right-16 w-7 h-7 absolute cursor-pointer lg:hidden text-2xl transition-all duration-300 ease-out "> 
                     {
