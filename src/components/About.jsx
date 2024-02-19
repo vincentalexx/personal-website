@@ -14,7 +14,7 @@ const About = () => {
                     <p className='mx-auto max-w-2xl text-xl md:text-lg lg:text-2xl mt-4 md:mt-12'>
                         Hello, my name is Vincent Alexander Haris. I'm an ungraduate computer science major at Bina Nusantara University. I've learned some of the programming fundamentals on my two years in collage, such as Algorithm and Programming Data Structures, Programming Design Methods, Computer Networks, Database Technology, and many more. 
                         <br /> <br />
-                        I'm a persistent and enthusiastic about learning new things that makes me understand some programming language and frameworks such as C, C++, HTML, CSS, JS, Java, Laravel, React, Tailwind, and PHP.
+                        I'm a persistent and enthusiastic about learning new things that makes me understand some programming language and frameworks such as C, C++, HTML, CSS, JS, Java, PHP, Laravel, React, Tailwind, and Bootsrap.
                     </p>
                 </div>
             </div>
