@@ -29,9 +29,9 @@ const Footer = () => {
                  
                 {/* flex space-y-8 md:flex-col justify-center md:space-x-32 md:space-y-0 */}
                 <ul className="md:flex justify-center md:space-x-16 space-y-3 md:space-y-0 mt-7">
-                    <li className="flex justify-center space-x-2">
+                    {/* <li className="flex justify-center space-x-2">
                         <FontAwesomeIcon icon={faWhatsapp} className="text-2xl" /> <p className="text-base font-bold ">+62 8172399168</p>
-                    </li>
+                    </li> */}
                     <li className="flex justify-center space-x-2">
                         <FontAwesomeIcon icon={faEnvelope} className="text-2xl" /> <p className="text-base font-bold">@vincentalexx03@gmail.com</p>
                     </li>
