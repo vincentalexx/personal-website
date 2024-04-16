@@ -5,15 +5,13 @@ import Title from './Title.json'
 const Home = () => {
     return (
         <section id="home">
-            <div className='home'>
-                <div className='h-44 lg:h-16'></div>
-
-                <div className='justify-center mx-auto lg:flex lg:space-x-16 xl:space-x-28 space-y-8 md:space-y-0 mt-[70px] md:mt-[80px] lg:mt-[110px] min-h-[90vh] md:min-h-[90vh] lg:min-h-[75vh]'>
-                    <div className=''>
+            <div className='home h-[100vh] justify-center align-middle'>
+                <div className='h-full flex flex-col lg:flex-row justify-center items-center lg:space-x-16 xl:space-x-28 space-y-8 md:space-y-0'>
+                    <div className='flex justify-center items-center'>
                         <img src={image} alt='photo' className="drop-shadow-[3px_-3px_white] object-cover aspect-square max-h-[300px] md:max-h-[350px] lg:max-h-[400px] mx-auto min-w-[250px]" />
                     </div>
                     <div className='justify-center flex items-center text-center content-center max-w-xl mx-auto align-middle md:max-h-[280px] lg:max-h-[350px]'>
-                        <p className='text-white font-bold mx-auto max-w-md md:w-[380px] lg:w-[448px] text-2xl md:text-3xl lg:text-5xl mt-24'>
+                        <p className='text-white font-bold max-w-md lg:max-w-lg text-2xl md:text-3xl lg:text-5xl mt-24'>
                             <Typewriter options={{strings: Title, autoStart: true, loop: true,}} />
                         </p>
                     </div>
