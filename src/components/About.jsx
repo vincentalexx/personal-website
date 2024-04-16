@@ -4,7 +4,7 @@ import image from '../assets/image/foto.png'
 const About = () => {
     return (
         <section id="about">
-            <div className='flex flex-col justify-center items-center min-h-[100vh] pt-[15vh] mb-20 lg:mt-0'>
+            <div className='flex flex-col justify-center items-center min-h-[100vh] pt-[5vh] mb-20 lg:mt-0'>
                 <span className='flex text-4xl text-center mb-10'>ABOUT</span>
                 <div className='justify-center items-center md:flex md:space-x-16 xl:space-x-28 space-y-8 md:space-y-0'>
                     <div className='flex justify-center items-center'>

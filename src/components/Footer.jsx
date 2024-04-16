@@ -17,7 +17,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/vincent-alexander-haris/" className="icon-hover text-center"><FontAwesomeIcon icon={faLinkedin} size="" className="text-4xl linkedin" />
-                            <p className="text-base">LinkedId</p>
+                            <p className="text-base">LinkedIn</p>
                         </a>
                     </li>
                     <li className="">
