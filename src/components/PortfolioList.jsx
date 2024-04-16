@@ -21,13 +21,13 @@ export const PortfolioList = [
         link: 'https://github.com/vincentalexx/personal-website.git',
         description: 'Personal Website.'
     },
-    {
-        id: '3',
-        name: 'Form Ketidakhadiran Pengurus Gereja',
-        image: staging,
-        link: 'https://github.com/vincentalexx/Staging.git',
-        description: 'Form Ketidakhadiran is a form for apply for permission of activity in GII Hok Im Tong Gardujati Bandung Church.',
-    },
+    // {
+    //     id: '3',
+    //     name: 'Form Ketidakhadiran Pengurus Gereja',
+    //     image: staging,
+    //     link: 'https://github.com/vincentalexx/Staging.git',
+    //     description: 'Form Ketidakhadiran is a form for apply for permission of activity in GII Hok Im Tong Gardujati Bandung Church.',
+    // },
     {
         id: '4',
         name: 'Vern',
