@@ -8,7 +8,7 @@ const Footer = () => {
         <section id="contact">
             <div className="bg-black justify-center">
                 <div className="h-12"></div>
-                <p className="flex text-3xl justify-center mb-11" >CONTACT</p>
+                <p className="flex text-4xl justify-center mb-11 tracking-wider" >Contact</p>
                 <ul className="justify-center flex space-x-10 md:space-x-28">
                     <li className="justify-center">
                         <a href="https://github.com/vincentalexx" className="icon-hover text-center"><FontAwesomeIcon icon={faGithub} size="" className="text-4xl github" />

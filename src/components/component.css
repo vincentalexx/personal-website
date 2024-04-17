@@ -29,14 +29,14 @@
 .active {
     animation: fade 1s;
     animation-timeline: calc();
-    opacity: 1;
 }
 
-.active2{
+.active2 {
+    animation-delay: 1s;
     animation: fades 1s;
     animation-timeline: calc();
-    opacity: 1;
 }
+
 
 .home {
     background: 
@@ -53,28 +53,23 @@
 @keyframes fade {
     from{
         opacity: 0.5;
-        transform: translateY(-100px);
+        transform: translateY(-10vh);
         height: 0;
     }
 
     to{
         opacity: 1;
-        transform: translateY(0px);
-        height: 25vh;
+        transform: translateY(0vh);
+        height: 6.2vh;
     }
 }
 
 @keyframes fades {
     from{
-        opacity: 0.5;
-        transform: translateY(-100px);
-        height: 0;
-    }
-    
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-        height: 7vh;
+        opacity: 0;
     }
 
+    to{
+        opacity: 1;
+    }
 }
