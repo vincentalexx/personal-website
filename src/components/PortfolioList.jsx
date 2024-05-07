@@ -5,6 +5,7 @@ import vern from '../assets/image/vern.png'
 import hashmicro from '../assets/image/hashmicro.png'
 import xyloBackend from '../assets/image/xylo-backend.png'
 import xyloFrontend from '../assets/image/xylo-frontend.png'
+import booklab from '../assets/image/booklab.png'
 
 export const PortfolioList = [
     {
@@ -55,5 +56,12 @@ export const PortfolioList = [
         image: xyloBackend,
         link: 'https://github.com/vincentalexx/Parking-System.git',
         description: 'This is a project for the PT Xylo Solusi Indonesia Back End Developer test',
+    },
+    {
+        id: '8',
+        name: 'BookLab',
+        image: booklab,
+        link: 'https://github.com/vincentalexx/Library.git',
+        description: 'This is a project for learning API',
     },
 ];
