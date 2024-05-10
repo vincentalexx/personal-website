@@ -18,6 +18,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      {/* <Slicker /> */}
       <Footer />
     </div>
   )
