@@ -33,7 +33,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faWhatsapp} className="text-2xl" /> <p className="text-base font-bold ">+62 8172399168</p>
                     </li> */}
                     <li className="flex justify-center space-x-2">
-                        <FontAwesomeIcon icon={faEnvelope} className="text-2xl" /> <p className="text-base font-bold">@vincentalexx03@gmail.com</p>
+                        <FontAwesomeIcon icon={faEnvelope} className="text-2xl" /> <p className="text-base font-bold">vincentalexx03@gmail.com</p>
                     </li>
                     <li className="flex justify-center space-x-2">
                         <FontAwesomeIcon icon={faDiscord} className="text-2xl" /> <p className="text-base font-bold">vincentalexx</p>
