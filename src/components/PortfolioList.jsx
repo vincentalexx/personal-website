@@ -4,13 +4,15 @@ export const PortfolioList = [
         name: 'KATEKIMA',
         image: ["katekima", "katekima-2", "katekima-3", "katekima-4", "katekima-5", "katekima-6", "katekima-7", "katekima-8", "katekima-9", "katekima-10"],
         link: 'https://github.com/vincentalexx/KATEKIMA.git',
-        description: 'Katekima is a photocopy company warehouse database management team project for the Software Engineering.',
+        langs: ['PHP', 'Laravel', 'MySQL'],
+        description: 'Katekima is a photocopy company warehouse database management that allows admin to add a new product, add and remove stocks, edit product descriptions, and see report and history.',
     },
     {
         id: '2',
         name: 'Portfolio',
         image: ["portfolio", "portfolio-2", "portfolio-3", "portfolio-4"],
         link: 'https://github.com/vincentalexx/personal-website.git',
+        langs: ['React', 'Tailwind'],
         description: 'Personal Website.'
     },
     // {
@@ -23,8 +25,9 @@ export const PortfolioList = [
     {
         id: '4',
         name: 'Vern',
-        image: ["vern", "vern"],
+        image: ["vern", "vern-2", "vern-3", "vern-4", "vern-5", "vern-6", "vern-7", "vern-8", "vern-9", "vern-10"],
         link: 'https://github.com/vincentalexx/Vern.git',
+        langs: ['Laravel', 'React', 'Tailwind', 'PostgreSQL'],
         description: 'Vern is a car rental project for the Web Programming subject',
     },
     {
@@ -32,6 +35,7 @@ export const PortfolioList = [
         name: 'HashMicro',
         image: ["hashmicro", "hashmicro-2", "hashmicro-3", "hashmicro-4", "hashmicro-5", "hashmicro-6"],
         link: 'https://github.com/vincentalexx/Hashmicro.git',
+        langs: ['React', 'Bootstrap'],
         description: 'This is a project for the PT HashMicro Solusi Indonesia test',
     },
     {
@@ -39,6 +43,7 @@ export const PortfolioList = [
         name: 'Daniel-Scrivner',
         image: ["xylo-frontend", "xylo-frontend-2", "xylo-frontend-3", "xylo-frontend-4", "xylo-frontend-5"],
         link: 'https://github.com/vincentalexx/DanielScrivner.git',
+        langs: ['React', 'Bootstrap'],
         description: 'This is a project for the PT Xylo Solusi Indonesia Front End Developer test',
     },
     {
@@ -46,6 +51,7 @@ export const PortfolioList = [
         name: 'Parking-System',
         image: ["xylo-backend", "xylo-backend-2", "xylo-backend-3", "xylo-backend-4", "xylo-backend-5"],
         link: 'https://github.com/vincentalexx/Parking-System.git',
+        langs: ['Laravel', 'Bootstrap', 'MySQL'],
         description: 'This is a project for the PT Xylo Solusi Indonesia Back End Developer test',
     },
     {
@@ -53,6 +59,7 @@ export const PortfolioList = [
         name: 'BookLab',
         image: ["booklab", "booklab-2", "booklab-3", "booklab-4", "booklab-5"],
         link: 'https://github.com/vincentalexx/Library.git',
+        langs: ['React', 'Tailwind'],
         description: 'This is a project for learning API',
     },
 ];
