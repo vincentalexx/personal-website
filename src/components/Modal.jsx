@@ -40,7 +40,7 @@ export default function Modal({open, onClose, portfolio}) {
                             <div className="flex flex-wrap gap-2">
                                 {portfolio.langs.map((lang) => {
                                     return (
-                                        <div className="flex items-center gap-2 border rounded-full p-2 w-fit">
+                                        <div className="flex items-center gap-2 border rounded-full p-2 w-fit hover:bg-zinc-700 cursor-pointer transition-all 3s ease-in-out">
                                             <img src={`image/lang/${lang}.png`} alt={lang} className="w-5" />
                                             <p className="text-sm">{lang}</p>
                                         </div>
