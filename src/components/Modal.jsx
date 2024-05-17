@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faXmarkCircle } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faXmarkCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default function Modal({open, onClose, portfolio}) {
     var settings = {
@@ -34,21 +34,22 @@ export default function Modal({open, onClose, portfolio}) {
                         </div>
                     </div>
                     <div className="w-full lg:w-[30vw] lg:h-full text-white flex flex-col items-center text-center lg:items-start lg:text-left">
-                        <p className="font-bold text-4xl text-white tracking-wider hidden lg:block mb-10">{portfolio.name}</p>
+                        <p className="font-bold text-4xl text-white tracking-wider hidden lg:block mb-5">{portfolio.name}</p>
                         <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start">
                             <p className="text-lg">{portfolio.description}</p>
                             <div className="flex flex-wrap gap-2">
                                 {portfolio.langs.map((lang) => {
                                     return (
-                                        <div className="flex items-center gap-2 border rounded-full p-2 w-fit hover:bg-zinc-700 cursor-pointer transition-all 3s ease-in-out">
+                                        <div className="flex items-center gap-2 border rounded-full p-2 w-fit hover:bg-zinc-600 cursor-pointer transition-all 3s ease-in-out">
                                             <img src={`image/lang/${lang}.png`} alt={lang} className="w-5" />
                                             <p className="text-sm">{lang}</p>
                                         </div>
                                     );
                                 })}
                             </div>
-                        <div className="flex items-center mt-2">
+                        <div className="flex items-center mt-2 gap-5">
                             <a href={portfolio.link} className="flex items-center justify-center underline underline-offset-2 hover:underline-offset-4 icon-hover transition-all 3s ease-in-out "><FontAwesomeIcon icon={faGithub} className="text-2xl ms-0 me-2" /> Repository</a >
+                            <a href={portfolio.deploy} className="flex items-center justify-center underline underline-offset-2 hover:underline-offset-4 icon-hover transition-all 3s ease-in-out"><FontAwesomeIcon icon={faGlobe} className="text-2xl ms-0 me-2"/> View website</a>
                         </div>
                         </div>
                     </div>

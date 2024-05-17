@@ -4,11 +4,7 @@ import { PortfolioList} from './PortfolioList'
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio =() => {
-    let [openModal, setisOpenModal] = useState(false)
-    
-    const closeModal = () => {
-        setisOpenModal(false);
-    }
+
     return (
         <section id="portfolio">
             <div className='flex justify-center items-center'>
