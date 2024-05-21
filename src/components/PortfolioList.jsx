@@ -69,4 +69,13 @@ export const PortfolioList = [
         langs: ['React', 'Tailwind'],
         description: 'This is a project that allows user to search a book, see the book author, place, time, subject, and description by using API with a loading section and pagination.',
     },
+    {
+        id: '9',
+        name: 'TitusKlein',
+        image: ["titusklein", "titusklein-2", "titusklein-3", "titusklein-4", "titusklein-5", "titusklein-6", "titusklein-7", "titusklein-8", "titusklein-9", "titusklein-10", "titusklein-11", "titusklein-12", "titusklein-13", "titusklein-14", "titusklein-15", "titusklein-16", "titusklein-17"],
+        link: 'https://github.com/vincentalexx/TitusKlein.git',
+        deploy: 'https://www.vincentalexxx.my.id/',
+        langs: ['React', 'Bootstrap'],
+        description: 'This is a frontend project for the PT Xylo Solusi Indonesia test that cloning the originalTitus Klein website.',
+    },
 ];
