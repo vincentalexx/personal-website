@@ -16,26 +16,26 @@ export default function Modal({open, onClose, portfolio}) {
       };
     return (
         <div className={`fixed inset-0 z-40 flex justify-center items-center transition-colors ${open ? "visible bg-black/60" : "invisible"} `}>
-            <div onClick={(e) => e.stopPropagation()} className={`bg-gray-800 rounded-lg shadow p-10 flex flex-col justify-center items-center transition-all cursor-default h-fit w-[85vw] lg:w-[90vw] lg:h-[80vh] gap-5 ${open? "scale-100 opacity-100" : "scale-125 opacity-0"}`}>
+            <div onClick={(e) => e.stopPropagation()} className={`bg-gray-800 rounded-lg shadow p-10 flex flex-col justify-center items-center transition-all cursor-default h-fit w-[85vw] md:w-[65vw] lg:w-[90vw] lg:h-[80vh] gap-5 ${open? "scale-100 opacity-100" : "scale-125 opacity-0"}`}>
                 <FontAwesomeIcon  onClick={onClose} icon={faXmarkCircle} className="text-2xl text-white absolute top-5 right-5 cursor-pointer hover:text-gray-500 transition-all 0.3s ease-out" />
                 <div className="flex flex-col lg:flex-row justify-center items-center ">
                     <p className="font-bold text-4xl text-white tracking-wider lg:hidden mb-5">{portfolio.name}</p>
                     <div className="text-white z-50 mb-2">
-                        <div className="w-[75vw] lg:w-[50vw] max-w-full h-fit p-[0.5px] flex flex-col">
-                            <Slider {...settings} className="flex justify-center items-center border border-white object-cover w-[75vw] h-[38vw] lg:w-[45vw] lg:h-[22vw] cursor-pointer ">
+                        <div className="w-[75vw] md:w-[40vw] md:h-[22vw] lg:w-[50vw] max-w-full h-fit p-[0.5px] flex flex-col">
+                            <Slider {...settings} className="flex justify-center items-center border border-white object-cover w-[75vw] md:w-[40vw] md:h-[22vw] h-[38vw] lg:w-[45vw] lg:h-[22vw] cursor-pointer ">
                                 {portfolio.image.map((img) => {
                                     return (
-                                        <div key={img} className="  flex justify-center items-center object-contain w-[75vw] h-[38vw] lg:w-[45vw] lg:h-[22vw]">
-                                            <img src={`/image/${portfolio.name}/${img}.png`} alt={portfolio.name} className="w-[75vw] h-[38vw] lg:w-[45vw] lg:h-[22vw]" />
+                                        <div key={img} className="  flex justify-center items-center object-contain w-[75vw] h-[38vw] md:w-[40vw] md:h-[22vw] lg:w-[45vw] lg:h-[22vw]">
+                                            <img src={`/image/${portfolio.name}/${img}.png`} alt={portfolio.name} className="w-[75vw] h-[38vw] md:w-[40vw] md:h-[22vw] lg:w-[45vw] lg:h-[22vw]" />
                                         </div>
                                     )
                                 })}
                             </Slider>
                         </div>
                     </div>
-                    <div className="w-full lg:w-[30vw] lg:h-full text-white flex flex-col items-center text-center lg:items-start lg:text-left">
+                    <div className="w-full max-w-[450px] lg:w-[30vw] lg:h-full text-white flex flex-col items-center text-center lg:items-start lg:text-left">
                         <p className="font-bold text-4xl text-white tracking-wider hidden lg:block mb-5">{portfolio.name}</p>
-                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start">
+                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start overflow-y-auto h-[100%] max-h-[250px] md:max-h-[300px] p-3 ps-0">
                             <p className="text-lg">{portfolio.description}</p>
                             <div className="flex flex-wrap gap-2">
                                 {portfolio.langs.map((lang) => {
