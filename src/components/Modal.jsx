@@ -35,7 +35,7 @@ export default function Modal({open, onClose, portfolio}) {
                     </div>
                     <div className="w-full max-w-[450px] lg:w-[30vw] lg:h-full text-white flex flex-col items-center text-center lg:items-start lg:text-left">
                         <p className="font-bold text-4xl text-white tracking-wider hidden lg:block mb-5">{portfolio.name}</p>
-                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start overflow-y-auto h-[100%] max-h-[30vh] md:max-h-[300px] p-3 ps-0">
+                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start overflow-y-auto h-[100%] max-h-[30vh] md:max-h-[300px] p-3 md:ps-0">
                             <p className="text-lg">{portfolio.description}</p>
                             <div className="flex flex-wrap gap-2">
                                 {portfolio.langs.map((lang) => {
@@ -49,7 +49,9 @@ export default function Modal({open, onClose, portfolio}) {
                             </div>
                         <div className="flex items-center mt-2 gap-5">
                             <a href={portfolio.link} className="flex items-center justify-center underline underline-offset-2 hover:underline-offset-4 icon-hover transition-all 3s ease-in-out "><FontAwesomeIcon icon={faGithub} className="text-2xl ms-0 me-2" /> Repository</a >
-                            <a href={portfolio.deploy} className="flex items-center justify-center underline underline-offset-2 hover:underline-offset-4 icon-hover transition-all 3s ease-in-out"><FontAwesomeIcon icon={faGlobe} className="text-2xl ms-0 me-2"/> View website</a>
+                            {portfolio.deploy && (
+                                <a href={portfolio.deploy} className="flex items-center justify-center underline underline-offset-2 hover:underline-offset-4 icon-hover transition-all 3s ease-in-out"><FontAwesomeIcon icon={faGlobe} className="text-2xl ms-0 me-2"/> View website</a>
+                            )}
                         </div>
                         </div>
                     </div>

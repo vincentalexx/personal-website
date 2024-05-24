@@ -41,7 +41,8 @@ const Footer = () => {
                 </ul>
                 <div className="h-12"></div>
             </div>
-        </section   >
+            <p className="text-center py-2">vincentalexx @ 2023</p>
+        </section>
     );
 }
 
