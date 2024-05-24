@@ -35,7 +35,7 @@ export default function Modal({open, onClose, portfolio}) {
                     </div>
                     <div className="w-full max-w-[450px] lg:w-[30vw] lg:h-full text-white flex flex-col items-center text-center lg:items-start lg:text-left">
                         <p className="font-bold text-4xl text-white tracking-wider hidden lg:block mb-5">{portfolio.name}</p>
-                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start overflow-y-auto h-[100%] max-h-[250px] md:max-h-[300px] p-3 ps-0">
+                        <div className="flex flex-col gap-2 lg:gap-5 items-center lg:items-start overflow-y-auto h-[100%] max-h-[30vh] md:max-h-[300px] p-3 ps-0">
                             <p className="text-lg">{portfolio.description}</p>
                             <div className="flex flex-wrap gap-2">
                                 {portfolio.langs.map((lang) => {
