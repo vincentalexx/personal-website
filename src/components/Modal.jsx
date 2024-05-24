@@ -16,7 +16,7 @@ export default function Modal({open, onClose, portfolio}) {
       };
     return (
         <div className={`fixed inset-0 z-40 flex justify-center items-center transition-colors ${open ? "visible bg-black/60" : "invisible"} `}>
-            <div onClick={(e) => e.stopPropagation()} className={`bg-gray-800 rounded-lg shadow p-10 flex flex-col justify-center items-center transition-all cursor-default h-[70vh] sm:h-[80vh] md:h-[90vh] w-[85vw] lg:w-[90vw] lg:h-[80vh] gap-5 ${open? "scale-100 opacity-100" : "scale-125 opacity-0"}`}>
+            <div onClick={(e) => e.stopPropagation()} className={`bg-gray-800 rounded-lg shadow p-10 flex flex-col justify-center items-center transition-all cursor-default h-fit w-[85vw] lg:w-[90vw] lg:h-[80vh] gap-5 ${open? "scale-100 opacity-100" : "scale-125 opacity-0"}`}>
                 <FontAwesomeIcon  onClick={onClose} icon={faXmarkCircle} className="text-2xl text-white absolute top-5 right-5 cursor-pointer hover:text-gray-500 transition-all 0.3s ease-out" />
                 <div className="flex flex-col lg:flex-row justify-center items-center ">
                     <p className="font-bold text-4xl text-white tracking-wider lg:hidden mb-5">{portfolio.name}</p>

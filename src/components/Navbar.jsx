@@ -47,7 +47,7 @@ const Navbar = () => {
                 
                 <a href="/" className="name lg:ml-20 ml-10 text-3xl tracking-wider font-semibold -mt-2 hover:text-[#ffdd00] transition-all duration-300 ease-out">Vincentalexx</a>
                 
-                <div onClick={() => setisOpen(!isOpen)} className="right-16 w-7 h-7 absolute cursor-pointer lg:hidden text-2xl transition-all duration-300 ease-out "> 
+                <div onClick={() => setisOpen(!isOpen)} className="right-16 w-7 h-7 absolute cursor-pointer lg:hidden text-2xl transition-all duration-300 ease-out hover:text-white"> 
                     {
                         isOpen ? <FontAwesomeIcon icon={faXmark}/> :  <FontAwesomeIcon icon={faBars} />
                     }
@@ -71,26 +71,26 @@ const Navbar = () => {
             </div>
 
                 {isOpen && (
-                    <ul className={'flex flex-col text-gray-500 w-[100vw] font-bold justify-between items-center fixed z-[3] lg:space-y-0 bg-[#1e2021] lg:bg-[#202224]] lg:border-0 border-2 border-[#202224] top-[11vh] lg:hidden'}>
+                    <ul className={'flex active flex-col text-gray-500 w-[100vw] font-bold justify-between items-center fixed z-[3] lg:space-y-0 bg-[#1e2021] lg:bg-[#202224]] lg:border-0 border-2 border-[#202224] top-[11vh] lg:hidden'}>
                         
-                        <li className="flex active justify-center icon-hover cursor-pointer border-b-2 border-gray-500 w-full py-3 ">
+                        <li className="flex justify-center icon-hover cursor-pointer border-b-2 border-gray-500 w-full py-3 ">
                             <div className="flex justify-start text-start">
-                                <a href="#home" className="w-32 font-bold active2 " onClick={() => select(4)} ><FontAwesomeIcon icon={faHome} className="mr-8 fa-xl" />Home</a>
+                                <a href="#home" className="w-32 font-bold " onClick={() => select(4)} ><FontAwesomeIcon icon={faHome} className="mr-8 fa-xl" />Home</a>
                             </div>
                         </li>
-                        <li className="flex active justify-center icon-hover cursor-pointer items-start border-b-2 w-full py-3 border-gray-500 ">
+                        <li className="flex justify-center icon-hover cursor-pointer items-start border-b-2 w-full py-3 border-gray-500 ">
                             <div className="flex justify-start text-start">
-                                <a href="#about" className="w-32 font-bold active2 " onClick={() => select(5)} ><FontAwesomeIcon icon={faUser} className="mr-8 fa-xl ml-[3px]" />About</a>
+                                <a href="#about" className="w-32 font-bold " onClick={() => select(5)} ><FontAwesomeIcon icon={faUser} className="mr-8 fa-xl ml-[3px]" />About</a>
                             </div>
                         </li>
-                        <li className="flex active justify-center icon-hover cursor-pointer border-b-2 w-full py-3 border-gray-500 ">
+                        <li className="flex justify-center icon-hover cursor-pointer border-b-2 w-full py-3 border-gray-500 ">
                             <div className="flex justify-start text-start">
-                                <a href="#portfolio" className="w-32 font-bold active2" onClick={() => select(6)} ><FontAwesomeIcon icon={faBookBookmark} className="mr-8 fa-xl ml-[3px]" />Portfolio</a>
+                                <a href="#portfolio" className="w-32 font-bold" onClick={() => select(6)} ><FontAwesomeIcon icon={faBookBookmark} className="mr-8 fa-xl ml-[3px]" />Portfolio</a>
                             </div>
                         </li>
-                        <li className="flex active justify-center icon-hover cursor-pointer w-full py-3 ">
+                        <li className="flex justify-center icon-hover cursor-pointer w-full py-3 ">
                             <div className="flex justify-start text-start">
-                                <a href="#contact" className="w-32 font-bold active2" onClick={() => select(7)} ><FontAwesomeIcon icon={faIdCardClip} className="mr-8 fa-xl" />Contact</a>
+                                <a href="#contact" className="w-32 font-bold" onClick={() => select(7)} ><FontAwesomeIcon icon={faIdCardClip} className="mr-8 fa-xl" />Contact</a>
                             </div>
                         </li>
                     </ul>

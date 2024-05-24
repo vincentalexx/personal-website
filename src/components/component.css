@@ -31,13 +31,6 @@
     animation-timeline: calc();
 }
 
-.active2 {
-    animation-delay: 1s;
-    animation: fades 1s;
-    animation-timeline: calc();
-}
-
-
 .home {
     background: 
       linear-gradient(135deg,#0000 20.5%,#000000 0 29.5%,#0000 0) 0 36px,
@@ -59,13 +52,11 @@
     from{
         opacity: 0.5;
         transform: translateY(-10vh);
-        height: 0;
     }
 
     to{
         opacity: 1;
         transform: translateY(0vh);
-        height: 6.2vh;
     }
 }
 
